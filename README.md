@@ -1,8 +1,16 @@
-# 📚 TIL (Today I Learned)
+# 📚 TIL
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=rearleg96&show_icons=true&theme=radical)<br>
 <a href="https://solved.ac/sksmdygks7">
     <img src="http://mazassumnida.wtf/api/generate_badge?boj=sksmdygks7" />
   </a>
+
+---
+
+### 내 목표!
+* solved.ac 스트릭 유지하기 `(260206 - 110일 유지 중)`
+* 삼성 SW 역량 A형 취득
+* 삼성 SW 역량 B형 취득
+* 성적 우수 유지하기
 
 ---
 
