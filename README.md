@@ -1,5 +1,4 @@
 # 📚 TIL
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=rearleg96&show_icons=true&theme=radical)<br>
 <a href="https://solved.ac/sksmdygks7">
     <img src="http://mazassumnida.wtf/api/generate_badge?boj=sksmdygks7" />
   </a>
