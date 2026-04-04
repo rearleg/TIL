@@ -12,7 +12,7 @@ public class Main {
         long[] arr = new long[N];
         StringTokenizer st = new StringTokenizer(br.readLine());
         for (int i = 0; i < N ; i++) arr[i] = Integer.parseInt(st.nextToken());
-        
+
         Arrays.sort(arr);
 
         int first = 0;
@@ -21,17 +21,16 @@ public class Main {
 
         long max = Long.MAX_VALUE;
 
-        for (int i = 0; i < N; i++) {
-            int cur = i;
-            int left = i == 0 ? 1 : 0;
-            int right = i == N-1 ? N-2 : N-1;
+        for (int i = 0; i < N - 2; i++) {
+            int left = i + 1;
+            int right = N-1;
 
             boolean isDone = false;
 
             while (left < right) {
-                long sum = arr[cur] + arr[left] + arr[right];
+                long sum = arr[i] + arr[left] + arr[right];
                 if (sum == 0) {
-                    first = cur;
+                    first = i;
                     second = left;
                     third = right;
                     isDone = true;
@@ -40,18 +39,16 @@ public class Main {
 
                 if (Math.abs(sum) < max) {
                     max = Math.abs(sum);
-                    first = cur;
+                    first = i;
                     second = left;
                     third = right;
                 }
 
                 if (sum > 0) {
                     right--;
-                    if (right == cur) right--;
                 }
                 else if ( sum < 0) {
                     left++;
-                    if (left == cur) left++;
                 }
             }
 
