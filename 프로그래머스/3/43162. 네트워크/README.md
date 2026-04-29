@@ -1,10 +1,10 @@
 # [level 3] 네트워크 - 43162 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/43162?language=java) 
 
 ### 성능 요약
 
-메모리: 72 MB, 시간: 0.46 ms
+메모리: 91.2 MB, 시간: 0.32 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 01월 30일 00:36:50
+2026년 04월 29일 13:43:17
 
 ### 문제 설명
 
@@ -57,11 +57,11 @@
 
 <p>예제 #1<br>
 아래와 같이 2개의 네트워크가 있습니다.<br>
-  <img src="https://grepp-programmers.s3.amazonaws.com/files/ybm/5b61d6ca97/cc1e7816-b6d7-4649-98e0-e95ea2007fd7.png" title="" alt="image0.png"></p>
+  <img src="https://asset.programmers.co.kr/files/ybm/5b61d6ca97/cc1e7816-b6d7-4649-98e0-e95ea2007fd7.png" title="" alt="image0.png"></p>
 
 <p>예제 #2<br>
 아래와 같이 1개의 네트워크가 있습니다.<br>
-  <img src="https://grepp-programmers.s3.amazonaws.com/files/ybm/7554746da2/edb61632-59f4-4799-9154-de9ca98c9e55.png" title="" alt="image1.png"></p>
+  <img src="https://asset.programmers.co.kr/files/ybm/7554746da2/edb61632-59f4-4799-9154-de9ca98c9e55.png" title="" alt="image1.png"></p>
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
