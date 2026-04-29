@@ -3,13 +3,13 @@ import java.util.Queue;
 
 class Solution {
     public int solution(int n, int[][] computers) {
-        boolean[] connected = new boolean[n];
-        int network = 0;
+        boolean[] checked = new boolean[n]; //중복 방지, 네트워크 개수 계산
+        int network = 0; //네트워크 수
 
         for(int i = 0; i < n; i++){
-            if(!connected[i]){
-                connected[i] = true;
-                bfs(i, n, computers, connected);
+            if(!checked[i]){
+                checked[i] = true;
+                bfs(i, n, computers, checked);
                 network++;
             }
         }
@@ -18,7 +18,7 @@ class Solution {
         return answer;
     }
 
-    public static void bfs(int computer, int n, int[][] computers, boolean[] connected){
+    public static void bfs(int computer, int n, int[][] computers, boolean[] checked){
         Queue<Integer> queue = new ArrayDeque<>();
         queue.add(computer);
 
@@ -26,8 +26,9 @@ class Solution {
             int now = queue.poll();
 
             for(int i = 0; i < n; i++){
-                if(computers[now][i] != 0 && !connected[i]){
-                    connected[i] = true;
+                //computers의 값이 0이면 "연결 안 됨" 의미
+                if(computers[now][i] != 0 && !checked[i]){
+                    checked[i] = true;
                     queue.add(i);
                 }
             }
